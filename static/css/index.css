@@ -603,6 +603,10 @@ code {
   padding: 1rem;
 }
 
+.works-list--empty {
+  min-height: 3rem;
+}
+
 .work-item {
   display: flex;
   align-items: flex-start;

@@ -127,44 +127,20 @@
   </button>
 
   <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="Related work and resources">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="More works from our group">
       <i class="fas fa-flask"></i>
       More Works
       <i class="fas fa-chevron-down dropdown-arrow"></i>
     </button>
     <div class="more-works-dropdown" id="moreWorksDropdown">
       <div class="dropdown-header">
-        <h4>Related resources</h4>
+        <h4>More Works</h4>
         <button class="close-btn" onclick="toggleMoreWorks()">
           <i class="fas fa-times"></i>
         </button>
       </div>
-      <div class="works-list">
-        <a href="https://arxiv.org/abs/2207.09367" class="work-item" target="_blank" rel="noopener">
-          <div class="work-info">
-            <h5>HumanML3D (text–motion dataset)</h5>
-            <p>Large-scale paired text and 3D human motions used in FlowCoMotion experiments.</p>
-            <span class="work-venue">CVPR 2022</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/2306.14734" class="work-item" target="_blank" rel="noopener">
-          <div class="work-info">
-            <h5>MotionGPT</h5>
-            <p>Autoregressive text-to-motion generation with discrete motion representations.</p>
-            <span class="work-venue">NeurIPS 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/2507.09122" class="work-item" target="_blank" rel="noopener">
-          <div class="work-info">
-            <h5>SnapMoGen</h5>
-            <p>Expressive text-conditioned human motion generation dataset used in FlowCoMotion.</p>
-            <span class="work-venue">arXiv 2025</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
+      <!-- When a new paper is out, add entries: <a href="..." class="work-item" target="_blank" rel="noopener">...</a> -->
+      <div class="works-list works-list--empty"></div>
     </div>
   </div>
 
