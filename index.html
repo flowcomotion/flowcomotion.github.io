@@ -88,8 +88,8 @@
     "headline": "FlowCoMotion: Text-to-Motion Generation via Token–Latent Flow Modeling",
     "description": "FlowCoMotion couples discrete motion tokens with continuous latents and generates motions with text-conditioned flow matching and efficient ODE sampling.",
     "author": [
-      {"@type": "Person", "name": "Dawei Guan", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}},
-      {"@type": "Person", "name": "Di Yang", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}},
+      {"@type": "Person", "name": "Dawei Guan", "url": "https://gdw040199.github.io/", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}},
+      {"@type": "Person", "name": "Di Yang", "url": "https://walker1126.github.io/", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}},
       {"@type": "Person", "name": "Chengjie Jin", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}},
       {"@type": "Person", "name": "Jiangtao Wang", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}}
     ],
@@ -176,8 +176,8 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">FlowCoMotion: Text-to-Motion Generation via Token–Latent Flow Modeling</h1>
             <div class="is-size-5 publication-authors">
-              <span class="author-block">Dawei Guan<sup>1</sup>,</span>
-              <span class="author-block">Di Yang<sup>1,2</sup>,</span>
+              <span class="author-block"><a href="https://gdw040199.github.io/" target="_blank" rel="noopener">Dawei Guan</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://walker1126.github.io/" target="_blank" rel="noopener">Di Yang</a><sup>1,2</sup>,</span>
               <span class="author-block">Chengjie Jin<sup>1</sup>,</span>
               <span class="author-block">Jiangtao Wang<sup>1,2</sup></span>
             </div>
@@ -206,7 +206,6 @@
                   </a>
                 </span>
               </div>
-              <p class="is-size-7 has-text-grey" style="margin-top: 0.75rem;">Replace the Code link if your training/inference repository is hosted elsewhere. Add the public arXiv abs/PDF link once the manuscript is posted.</p>
             </div>
           </div>
         </div>
@@ -220,9 +219,11 @@
         <figure class="image teaser-static">
           <img src="static/images/teaser_poster.png" alt="FlowCoMotion overview — add static/videos/banner_video.mp4 or YouTube when a motion teaser is ready." width="1280" height="720" loading="eager">
         </figure>
-        <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
-          Token–latent coupling keeps semantic structure from discrete tokens while preserving continuous dynamics; a text-conditioned flow matching head integrates an ODE from noise to motion latents for efficient sampling.
-        </h2>
+        <div class="teaser-caption">
+          <p>
+            We propose a novel framework called <strong>FlowCoMotion</strong>, which can handle fine-grained semantic content to guide the generation of high-quality motion. This method is particularly suitable for handling various forms of input, including but not limited to numbers, shapes and directions.
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -253,8 +254,7 @@
   <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
-        <h2 class="title is-3 has-text-centered" style="margin-bottom: 1rem;">Results preview</h2>
-        <p class="has-text-centered is-size-7 has-text-grey" style="margin-bottom: 1.5rem;">Carousel assets live under <code>static/images/carousel1.png</code> … <code>carousel4.png</code> (replace with higher-resolution exports from the paper as needed).</p>
+        <h2 class="title is-3 has-text-centered" style="margin-bottom: 1.5rem;">Results preview</h2>
         <div id="results-carousel-images" class="carousel results-carousel">
           <div class="item">
             <img src="static/images/carousel1.png" alt="Fine-grained text-to-motion qualitative preview" loading="lazy">

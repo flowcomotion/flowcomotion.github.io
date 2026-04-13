@@ -121,6 +121,24 @@ body {
   box-shadow: var(--shadow-xl);
 }
 
+.teaser-caption {
+  max-width: 42rem;
+  margin: 1.25rem auto 0;
+  padding: 0 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--text-secondary, #475569);
+  text-align: justify;
+  hyphens: auto;
+}
+
+.teaser-caption strong {
+  font-weight: 700;
+  color: var(--text-primary, #0f172a);
+}
+
 
 /* Publication Content Styling */
 .publication-title {
