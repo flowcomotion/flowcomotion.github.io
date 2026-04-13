@@ -317,6 +317,29 @@ body {
   font-weight: 500;
 }
 
+.results-carousel .carousel-item-desc {
+  display: block;
+  font-size: 0.95rem !important;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin-top: 1rem;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.results-carousel .carousel-item-desc p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.results-carousel .carousel-item-desc strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
 /* Pagination and Misc Improvements */
 .slider-pagination .slider-page {
   background: var(--primary-color);
