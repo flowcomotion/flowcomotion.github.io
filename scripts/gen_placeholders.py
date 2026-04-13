@@ -75,7 +75,7 @@ def carousel(name: str, title: str, subtitle: str, accent: tuple[int, int, int])
     draw_centered_text(draw, title, 280, w, (255, 255, 255), tf)
     draw_centered_text(draw, subtitle, 360, w, (226, 232, 240), sf)
     draw_centered_text(draw, "Placeholder — replace with figure export from the paper", 440, w, (148, 163, 184), _font(20))
-    im.convert("RGB").save(IMG / f"{name}.jpg", quality=88, optimize=True)
+    im.convert("RGB").save(IMG / f"{name}.png", "PNG", optimize=True)
 
 
 def favicon():
@@ -84,7 +84,7 @@ def favicon():
     draw = ImageDraw.Draw(im)
     f = _font(28)
     draw.text((10, 16), "FC", font=f, fill=(255, 255, 255))
-    im.save(IMG / "favicon.ico", format="ICO", sizes=[(32, 32), (16, 16)])
+    im.save(IMG / "favicon.png", "PNG", optimize=True)
 
 
 def teaser_poster():
