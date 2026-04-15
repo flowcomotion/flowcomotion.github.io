@@ -340,6 +340,45 @@ body {
   font-weight: 600;
 }
 
+/* Qualitative GIF comparison rows */
+.demo-gif-group {
+  margin-bottom: 3rem;
+}
+
+.demo-gif-group:last-child {
+  margin-bottom: 0;
+}
+
+.demo-prompt {
+  max-width: 52rem;
+  margin: 0 auto 1.25rem;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+}
+
+.demo-gif-figure {
+  margin: 0;
+}
+
+.demo-gif-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  background: var(--background-primary);
+}
+
+.demo-gif-figure figcaption {
+  margin-top: 0.4rem;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
 /* Pagination and Misc Improvements */
 .slider-pagination .slider-page {
   background: var(--primary-color);
